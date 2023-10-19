@@ -1,89 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Idle Sim</title>
-    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
 
-    <svg width="100vw" height="100vh">
-      <!-- <rect x="100" y="200" width="400" height="400" fill="#FFFF00" /> -->
-      <!-- <ellipse cx="100" cy="50" rx="100" ry="50" fill="red" /> -->
-      <!-- <path d="M 200 300 L 200 400, 10 200, 700 200, 20 600 z" stroke-dasharray="8,3,2,18" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="black" stroke-width="12"/> -->
-      <!-- <line x1="5" y1="5" stroke="green" stroke-width="5" stroke-dasharray="8,2" x2="1024" y2="5" /> -->
-      <!-- <circle cx="900" cy="400" r="150"/> -->
-      <rect x="60" y="95" height="30" width="50" />
-      <ellipse cx="250" cy="250" rx="50" ry="100" fill="red" />
-      <path d="M 400 400 Q 600,0 800,400" fill="grey" stroke-width="5" stroke-linecap="round" stroke="blue"/>
-      <path d="M 400 400 C 400,400 0,600 800,400" fill="black" stroke-width="5" stroke-linecap="round" stroke="red"/>
-      <!-- <path fill="orange" d="M 10,215 210,215 110, 42 z M 10,100 210,100 110,273 z" stroke="purple" stroke-width="3"/> -->
-      <defs>
+    <div class="container">
 
-        <path id="curve" d="M 100 400 C 100 400, 300 150, 450 450" stroke="black" fill="none" stroke-width="5" />
-        
-      </defs>
-      <text id="T" style="font-family:ariel;font-size:16">
-        <textPath xlink:href="#curve">Hello, here is some text lying along a bezier curve.</textPath>
-      </text>
-      <g transform=translate(120,120)>
-        <ellipse cx="250" cy="250" rx="50" ry="100" fill="red" />
-      </g>
-      <g stroke="black">
-        <g id="g3" fill="none" stroke-width="2">
-        
-           <g id="g2">
-              <ellipse id="g1" cx="100" cy="100" rx="75" ry="40"/>
-              <use xlink:href="#g1" transform="rotate(30 100 100)"/>
-              <use xlink:href="#g1" transform="rotate(60 100 100)"/>
-           </g>
-         
-           <use xlink:href="#g2" transform="rotate(90 100 100)"/>
-        </g>
-     </g>
-     
-     
-     <g stroke="blue" transform="translate(80,0)">
-        <g id="g3" fill="none" stroke-width="2">
-        
-           <g id="g2">
-              <ellipse id="g1" cx="100" cy="100" rx="75" ry="40"/>
-              <use xlink:href="#g1" transform="rotate(30 100 100)"/>
-              <use xlink:href="#g1" transform="rotate(60 100 100)"/>
-           </g>
-         
-           <use xlink:href="#g2" transform="rotate(90 100 100)"/>
-        </g>
-     </g>
-     
-     <g stroke="red" transform="translate(0,80)">
-        <g id="g3" fill="none" stroke-width="2">
-        
-           <g id="g2">
-              <ellipse id="g1" cx="100" cy="100" rx="75" ry="40"/>
-              <use xlink:href="#g1" transform="rotate(30 100 100)"/>
-              <use xlink:href="#g1" transform="rotate(60 100 100)"/>
-           </g>
-         
-           <use xlink:href="#g2" transform="rotate(90 100 100)"/>
-        </g>
-     </g>
-     
-     <g stroke="green" transform="translate(80,80)">
-        <g id="g3" fill="none" stroke-width="2">
-        
-           <g id="g2">
-              <ellipse id="g1" cx="100" cy="100" rx="75" ry="40"/>
-              <use xlink:href="#g1" transform="rotate(30 100 100)"/>
-              <use xlink:href="#g1" transform="rotate(60 100 100)"/>
-           </g>
-         
-           <use xlink:href="#g2" transform="rotate(90 100 100)"/>
-        </g>
-     </g>
-        
-    </svg>
+        <div class="box1">
+            <div class="front">I love you so much!!!</div>
+            <div class="back"></div>
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
 
+
+    </div>
 
 
     <script src="script.js"></script>
